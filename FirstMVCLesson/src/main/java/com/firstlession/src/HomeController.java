@@ -37,7 +37,8 @@ public class HomeController {
 /*	@RequestMapping(value = "index.htm/one", method=RequestMethod.GET)
 	public String bloop(Model model, @RequestParam String winner){
 		model.addAttribute("player", winner);
-		return "home";
+		return "home"; 
+		//update comments
 	}	
 	
 	@RequestMapping(value = "index.htm/two", method=RequestMethod.GET)
