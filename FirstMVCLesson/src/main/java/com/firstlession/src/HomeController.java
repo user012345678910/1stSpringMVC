@@ -38,7 +38,7 @@ public class HomeController {
 	public String bloop(Model model, @RequestParam String winner){
 		model.addAttribute("player", winner);
 		return "home"; 
-		//update comments
+		//updated comments
 	}	
 	
 	@RequestMapping(value = "index.htm/two", method=RequestMethod.GET)
